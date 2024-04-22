@@ -1,0 +1,56 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "tile.tmx",
+    "expandedProjectPaths": [
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "roguelikeSheet_transparent.tsx": {
+            "scaleInDock": 3.2491,
+            "scaleInEditor": 1.11
+        },
+        "tile.tmx": {
+            "scale": 5.9995,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 966.6638886573882,
+                "y": 52.58771564297025
+            }
+        },
+        "tilemap.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 2.93
+        },
+        "tilemap_packed.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 2.04
+        }
+    },
+    "last.imagePath": "/Users/ahmetaffanebcioglu/Downloads/kenney_roguelike-rpg-pack/Spritesheet",
+    "map.height": 64,
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "map.width": 64,
+    "openFiles": [
+        "tile.tmx",
+        "roguelikeSheet_transparent.tsx"
+    ],
+    "project": "untitled.tiled-project",
+    "recentFiles": [
+        "roguelikeSheet_transparent.tsx",
+        "tile.tmx",
+        "tilemap_packed.tsx",
+        "tilemap.tsx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.spacing": 1,
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    },
+    "tileset.useTransparentColor": true
+}
