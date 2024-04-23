@@ -17,6 +17,8 @@ type Assets struct{}
 //go:embed *
 var assets embed.FS
 
+var TempChar = getSingleImage("Sprites/chars.go")
+
 func getSingleImage(name string) *ebiten.Image {
 	f, err := assets.Open(name)
 	if err != nil {
