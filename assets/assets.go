@@ -4,6 +4,7 @@ import (
 	"embed"
 	"fmt"
 	"image"
+	_ "image/png"
 	"log"
 	"os"
 
@@ -17,7 +18,9 @@ type Assets struct{}
 //go:embed *
 var assets embed.FS
 
-var TempChar = getSingleImage("Sprites/chars.go")
+var TempChar = getSingleImage("Sprites/chars.png")
+
+var Tile = getTiled("./assets/Tiles/tile.tmx")
 
 func getSingleImage(name string) *ebiten.Image {
 	f, err := assets.Open(name)
