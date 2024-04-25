@@ -51,7 +51,6 @@ func getTiled(name string) *ebiten.Image {
 		os.Exit(2)
 	}
 
-	// Render just layer 0 to the Renderer.
 	err = renderer.RenderLayer(0)
 	if err != nil {
 		fmt.Printf("layer unsupported for rendering: %s", err.Error())
