@@ -39,19 +39,13 @@ func (g *Game) Update() error {
 	g.player.Update()
 	g.camera.setPos(g.player.player.x/unit-320, g.player.player.y/unit-240)
 
-	if g.player.player.x <= 3150 {
+	if g.player.player.x <= 3150 && g.player.player.y <= 2350 {
 		g.camera.setPos(0, g.player.player.y/unit-240)
-	}
-
-	if g.player.player.x >= 7040 {
-		g.camera.setPos(385, g.player.player.y/unit-240)
-	}
-
-	if g.player.player.y <= 2350 {
 		g.camera.setPos(0, 0)
 	}
 
-	if g.player.player.y >= 7845 {
+	if g.player.player.x >= 7040 && g.player.player.y >= 7845 {
+		g.camera.setPos(385, g.player.player.y/unit-240)
 		g.camera.setPos(g.player.player.x/unit, 240)
 	}
 
