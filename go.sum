@@ -10,6 +10,9 @@ github.com/ebitengine/purego v0.7.0 h1:HPZpl61edMGCEW6XK2nsR6+7AnJ3unUxpTZBkkIXn
 github.com/ebitengine/purego v0.7.0/go.mod h1:ah1In8AOtksoNK6yk5z1HTJeUkC1Ez4Wk2idgGslMwQ=
 github.com/hajimehoshi/ebiten/v2 v2.7.2 h1:5HcWAjxhGMBocJh0jH/61Kx4QJ91HkzYtSeSucvVg7o=
 github.com/hajimehoshi/ebiten/v2 v2.7.2/go.mod h1:1vjyPw+h3n30rfTOpIsbWRXSxZ0Oz1cYc6Tq/2DKoQg=
+github.com/jakecoffman/cp v1.2.1 h1:zkhc2Gpo9l4NLUZfeG3j33+3bQD7MkqPa+n5PdX+5mI=
+github.com/jakecoffman/cp/v2 v2.0.2 h1:HN+youpOhd8xgWYw5amqiJFLoreAIB/uI/EEzZohLjA=
+github.com/jakecoffman/cp/v2 v2.0.2/go.mod h1:Q0hFU7Kk6PMw4dwgFtvBC6O4KTm7ewiLuHrXtHMicyU=
 github.com/jezek/xgb v1.1.1 h1:bE/r8ZZtSv7l9gk6nU0mYx51aXrvnyb44892TwSaqS4=
 github.com/jezek/xgb v1.1.1/go.mod h1:nrhwO0FX/enq75I7Y7G8iN1ubpSGZEiA3v9e9GyRFlk=
 github.com/lafriks/go-tiled v0.12.0 h1:uteu/gkllQmv2/2O1xgxhyOH5/9VsOyGd5/M9sBeBjQ=
